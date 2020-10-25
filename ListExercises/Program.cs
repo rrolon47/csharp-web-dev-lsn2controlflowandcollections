@@ -29,6 +29,7 @@ namespace ListExercises
             List<string> wordList = new List<string> { "the", "cat", "fight", "blue" };
             static void LetterWord(List<string> arg)
             {
+                Console.WriteLine("Enter a number:");
                 string input = Console.ReadLine();
                 double number = double.Parse(input); 
                 foreach (string word in arg)
@@ -41,7 +42,7 @@ namespace ListExercises
             }
 
             //Modify your code to prompt the user to enter the word length for the search
-            Console.WriteLine("Enter a number:");
+            
                 LetterWord(wordList);
 
         }
